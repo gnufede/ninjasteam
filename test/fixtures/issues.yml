@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  id: MyString
+  email: MyString
+  phone: MyString
+  status: 1
+  dueDate: 2011-05-25
+
+two:
+  id: MyString
+  email: MyString
+  phone: MyString
+  status: 1
+  dueDate: 2011-05-25
