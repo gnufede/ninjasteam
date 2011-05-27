@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(:version => 20110525123841) do
     t.string   "phone"
     t.integer  "status"
     t.date     "dueDate"
+    t.text     "problem"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

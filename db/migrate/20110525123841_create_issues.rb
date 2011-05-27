@@ -6,7 +6,6 @@ class CreateIssues < ActiveRecord::Migration
       t.string :phone
       t.integer :status
       t.date :dueDate
-
       t.timestamps
     end
   end

@@ -15,10 +15,10 @@ class IssuesController < ApplicationController
   def show
     @issue = Issue.find(params[:id])
 
-    respond_to do |format|
-      format.html # show.html.erb
-      format.xml  { render :xml => @issue }
-    end
+#    respond_to do |format|
+#      format.html # show.html.erb
+#      format.xml  { render :xml => @issue }
+#    end
   end
 
   # GET /issues/new
@@ -26,10 +26,10 @@ class IssuesController < ApplicationController
   def new
     @issue = Issue.new
 
-    respond_to do |format|
-      format.html # new.html.erb
-      format.xml  { render :xml => @issue }
-    end
+#    respond_to do |format|
+#      format.html # new.html.erb
+#      format.xml  { render :xml => @issue }
+#    end
   end
 
   # GET /issues/1/edit

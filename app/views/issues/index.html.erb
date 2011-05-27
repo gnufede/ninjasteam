@@ -6,6 +6,7 @@
     <th>Email</th>
     <th>Phone</th>
     <th>Status</th>
+    <th>Problem</th>
     <th>Duedate</th>
   </tr>
 
@@ -15,6 +16,7 @@
     <td><%=h issue.email %></td>
     <td><%=h issue.phone %></td>
     <td><%=h issue.status %></td>
+    <td><%=h issue.problem %></td>
     <td><%=h issue.dueDate %></td>
     <td><%= link_to 'Show', issue %></td>
     <td><%= link_to 'Edit', edit_issue_path(issue) %></td>
